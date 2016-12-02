@@ -1,1 +1,106 @@
 /* custom styles */
+
+#container{
+
+  background: url("../imgs/portfolio.jpg")no-repeat 50% 50% fixed;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+
+}
+
+
+h1 {
+font-family: 'Abel', sans-serif;
+margin: 0;
+text-align: center;
+color: white;
+padding: 80px;
+font-size: 50px;
+
+
+}
+
+
+
+.nav {
+text-align: center;
+}
+
+ul {
+  overflow: auto;
+  list-style-type: none;
+  display: inline-flex;
+  padding: 0
+}
+
+.nav li {
+  height: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 1px solid #aaa;
+
+}
+
+li:last-child {
+  border-right: none;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: #ccc;
+  font: 25px/1 Helvetica, Verdana, sans-serif;
+  text-transform: uppercase;
+
+
+}
+
+.nav li a:hover {
+  color: #666;
+}
+
+
+/*.selected{
+  color: red !important;
+}*/
+
+main {
+  display: table-caption;
+  text-align: -webkit-center;
+  font-family: 'Abel', sans-serif;
+  padding-left: 285px;
+  font-size: 30px;
+
+}
+
+.contact{
+
+
+  margin: 100px;
+}
+
+.linkedin {
+
+
+  margin: 100px;
+}
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #A9A9A9;
+  text-align: center;
+  font-style: normal;
+  font-size: 10px;
+  color:
+}
+
+
+span {
+  font-size: 15px;
+  font-style: normal;
+}

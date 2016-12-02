@@ -1,5 +1,16 @@
 # Learn Git Training
 
+Future updates
+
+feedback
+1. I wish the divs (white space) were complete.
+2. I wish you added a little to the white space.
+3. Additional content will make this feel more complete.
+4. I wish the menu wold be on the bottom so there is more room for content .
+   I wonder if you could have the top image resize smaller as you scroll down.
+5. I wish footer didn't take it quite as much vertical space.   
+
+
 1. Create a fork of the [this](https://github.com/sf-wdi-31/personal-portfolio) by clicking "Fork" on the top right.
 
   ![fork button](https://cloud.githubusercontent.com/assets/6520345/17564556/97ecdd00-5ee8-11e6-9ad0-a7b8104579ff.png)
