@@ -1,106 +1,219 @@
 /* custom styles */
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-#container{
 
-  background: url("../imgs/portfolio.jpg")no-repeat 50% 50% fixed;
-  background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
+::-moz-selection {
+    background: #f2c2c9;
+    color: #a4003a;
+    text-shadow: none;
+}
 
+::selection {
+    background: #16a085;
+    color: #a4003a;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.centered {
+	text-align: center
+}
+
+.mt {
+	margin-top: 80px;
+}
+
+.mb {
+	margin-bottom: 10px;
+}
+
+/* ==========================================================================
+   General styles
+   ========================================================================== */
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 700;
+    color: #4a4a4a;
 }
 
 
-h1 {
-font-family: 'Abel', sans-serif;
-margin: 0;
-text-align: center;
-color: white;
-padding: 80px;
-font-size: 50px;
+.navbar-brand {
+	font-weight: 700;
+}
 
+.navbar-default .navbar-brand {
+	color: #27586B;
+}
 
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #27586B;
+	background-color: transparent;
+	border-bottom: 2px solid #27586B
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #27586B;
+}
+
+/* ==========================================================================
+   Wrap Sections
+   ========================================================================== */
+
+#headerwrap {
+	background: url(../imgs/img3.jpg) no-repeat center top;
+	margin-top: -70px;
+	padding-top: 250px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 650px;
+	width: 100%;
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h1 {
+	color:#ffffff;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	letter-spacing: 2px;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+#headerwrap h4 {
+	font-weight: 400;
+	color: #ffffff
 }
 
 
 
-.nav {
-text-align: center;
+#footerwrap {
+  padding-top: 20px;
+	/*padding-top: 70px;*/
+	/*padding-bottom: 50px;*/
+	background-color: #2f2f2f;
 }
 
-ul {
-  overflow: auto;
-  list-style-type: none;
-  display: inline-flex;
-  padding: 0
+#footerwrap p {
+	color: #f2f2f2;
+	margin-left: 10px;
 }
 
-.nav li {
-  height: 25px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-right: 1px solid #aaa;
+#workwrap {
+	background: url(../img/work.jpg) no-repeat center top;
+	margin-top: -70px;
+	padding-top: 250px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 650px;
+	width: 100%;
 
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-li:last-child {
-  border-right: none;
+#workwrap h1 {
+	color:#ffffff;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	letter-spacing: 4px;
+	font-size: 80px;
+	font-weight: bold;
 }
 
-.nav li a {
-  text-decoration: none;
-  color: #ccc;
-  font: 25px/1 Helvetica, Verdana, sans-serif;
-  text-transform: uppercase;
-
-
+#workwrap h4 {
+	font-weight: 400;
+	color: #ffffff
 }
 
-.nav li a:hover {
-  color: #666;
-}
+#aboutwrap {
+	background: url(../imgs/ricardo.jpg) no-repeat center top;
+	margin-top: 70px;
+	padding-top: 100px;
+  background-size: 200px;
+  min-height: 200px;
+  border-radius: 2em;
 
+	/*background-attachment: relative;
+	background-position: center;*/
+  /*height: 100px;
+	width: 100%;*/
+/*
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
 
-/*.selected{
-  color: red !important;
-}*/
-
-main {
-  display: table-caption;
-  text-align: -webkit-center;
-  font-family: 'Abel', sans-serif;
-  padding-left: 285px;
-  font-size: 30px;
-
-}
-
-.contact{
-
-
-  margin: 100px;
-}
-
-.linkedin {
-
-
-  margin: 100px;
-}
-
-footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #A9A9A9;
-  text-align: center;
-  font-style: normal;
-  font-size: 10px;
-  color:
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;*/
 }
 
 
-span {
-  font-size: 15px;
-  font-style: normal;
+
+
+/* Gallery */
+.gallery {
+	margin-top: 30px;
+}
+
+.gallery img:hover {
+	opacity: 0.4;
+}
+
+/*social media*/
+.social{
+  color:white;
+}
+
+.social:hover {
+  font-size:2em;
+  transition: 1s ease-out;
+  color:white;
+
 }
