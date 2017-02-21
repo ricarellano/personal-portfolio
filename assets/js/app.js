@@ -2,10 +2,9 @@
 console.log("app.js linked.");
 
 $(document).ready(function() {
-   $("#home").mouseover(function(){
-     $(".selected").css("color", "red")
-   });
-
+  $('#myModal').on('shown.bs.modal', function () {
+ $('#myInput').focus()
+})
 
 
 

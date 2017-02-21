@@ -5,7 +5,6 @@
   <!-- meta -->
   <meta charset="utf-8" />
   <meta name="description" content="Personal Site">
-  <meta name="author" content="GA Student">
   <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
   <!-- mobile -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -25,8 +24,6 @@
   <!-- Compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-  <!-- favicon -->
-  <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
 </head>
 <body>
   <!-- Static navbar -->
@@ -45,7 +42,6 @@
         <ul class="nav navbar-nav navbar-right">
           <li class="active"><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="#works">Works</a></li>
         </ul>
       </div><!--/.nav-collapse -->
     </div>
@@ -70,12 +66,32 @@
     <h1>My Portfolio</h1>
 
     <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-      <a href="work.html"><img src="assets/imgs/airplane1.png" class="img-responsive"></a>
+      <a href="#"><img src="assets/imgs/airplane1.png" class="img-responsive" data-toggle="modal" data-target=".bs-example-modal-lg"></a>
     </div>
+
+
+
+
+
+
     <div class="col-lg-4 col-md-4 col-sm-4 gallery">
-      <a href="work.html"><img src="assets/imgs/airplane.png" class="img-responsive"></a>
+      <img src="assets/imgs/airplane.png" class="img-responsive" data-toggle="modal" data-target=".bs-example-modal-lg">
       <p><strong>Airplane Crash</strong></p>
       <p><em>Javascript Game</em></p>
+      <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg row" role="document">
+          <div class="modal-content">
+            <h3>Airplane Crash</h3>
+            <img style="height: 300px;" src="assets/imgs/airplane.png">
+            <div class="row">
+              <a href="https://github.com/ricarellano/airplane-crash" class="btn btn-primary" type="button" name="button">Github</a>
+              <a href="http://airplane-crash.bitballoon.com/" class="btn btn-primary" type="button" name="button">Website</a>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
     </div>
     <div class="col-lg-4 col-md-4 col-sm-4 gallery">
       <a href="work.html"><img src="assets/imgs/airplane1.png" class="img-responsive"></a>
