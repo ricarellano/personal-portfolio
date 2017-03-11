@@ -1,9 +1,6 @@
 /* custom styles */
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-img {
-    max-width: 100%;
-    height: auto;
-}
+
 ::-moz-selection {
     background: #f2c2c9;
     color: #a4003a;
@@ -70,8 +67,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default {
-	background-color: transparent;
-	border-color: transparent;
+	/*background-color: transparent;*/
+	/*border-color: transparent;*/
+  background-color: black;
+  opacity: 0.5;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
@@ -89,16 +88,17 @@ h1, h2, h3, h4, h5, h6 {
    ========================================================================== */
 
 #headerwrap {
+
 	background: url(../imgs/img3.jpg) no-repeat center top;
-	margin-top: -70px;
+	margin-top: 0px;
 	padding-top: 250px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
 	min-height: 650px;
 	width: 100%;
-  opacity: 0.7;
-  filter: alpha(opacity=50);
+  /*opacity: 0.7;
+  filter: alpha(opacity=50);*/
 
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -132,47 +132,15 @@ h1, h2, h3, h4, h5, h6 {
 	/*padding-top: 70px;*/
 	/*padding-bottom: 50px;*/
 	background-color: #2f2f2f;
+  text-align: right;
 }
 
 #footerwrap p {
 	color: #f2f2f2;
-	margin-left: 10px;
+	margin-right: 10px;
 }
 
-#workwrap {
-	background: url(../img/work.jpg) no-repeat center top;
-	margin-top: -70px;
-	padding-top: 250px;
-	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 650px;
-	width: 100%;
 
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-#workwrap h1 {
-	color:#ffffff;
-	padding-top: 10px;
-	padding-bottom: 20px;
-	letter-spacing: 4px;
-	font-size: 80px;
-	font-weight: bold;
-}
-
-#workwrap h4 {
-	font-weight: 400;
-	color: #ffffff
-}
 
 #aboutwrap {
 	background: url(../imgs/ricardo.jpg) no-repeat center top;
