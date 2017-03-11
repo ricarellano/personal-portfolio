@@ -133,6 +133,7 @@ h1, h2, h3, h4, h5, h6 {
 	/*padding-bottom: 50px;*/
 	background-color: #2f2f2f;
   text-align: right;
+
 }
 
 #footerwrap p {
@@ -145,15 +146,16 @@ h1, h2, h3, h4, h5, h6 {
 #aboutwrap {
 	background: url(../imgs/ricardo.jpg);
   background-repeat: no-repeat;
-  width: 200px;
+  width: 250px;
   margin: 0 auto;
   display: block;
-	margin-top: 70px;
+	margin-top: 110px;
 	padding-top: 100px;
-  background-size: 200px;
-  min-height: 200px;
+  background-size: 250px;
+  min-height: 250px;
   border-radius: 50%;
   text-align: center !important;
+  margin-bottom: 5%;
 
 
 
