@@ -7,6 +7,9 @@ $(document).ready(function() {
 
  $('#myModal').on('#modal1', function () {
 $('#myInput').focus()
+
+$('#myModal').on('#modal3', function () {
+$('#myInput').focus()
 })
 
 
