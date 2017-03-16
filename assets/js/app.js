@@ -10,6 +10,12 @@ $('#myInput').focus()
 
 $('#myModal').on('#modal3', function () {
 $('#myInput').focus()
+
+$('#myModal').on('#modal4', function () {
+$('#myInput').focus()
+
+$('#myModal').on('#modal5', function () {
+$('#myInput').focus()
 })
 
 

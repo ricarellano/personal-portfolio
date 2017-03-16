@@ -156,7 +156,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50%;
   text-align: center !important;
   margin-bottom: 5%;
-  
+
 
 
 
@@ -182,6 +182,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Gallery */
 .gallery {
 	margin-top: 30px;
+
 }
 
 .gallery img:hover {
@@ -202,4 +203,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .btn{
   margin:20px;
+}
+
+.skills {
+  background-color: #ddd;
+  height: 300px;
 }
