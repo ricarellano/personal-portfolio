@@ -201,5 +201,9 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #ddd;
   height: auto;
   padding-bottom: 10px;
-  
+
+}
+
+.skills-title{
+  padding-bottom: 20px;
 }
