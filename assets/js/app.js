@@ -4,23 +4,39 @@ console.log("app.js linked.");
 $(document).ready(function() {
   $('#myModal').on('#modal2', function () {
  $('#myInput').focus()
-
+})
  $('#myModal').on('#modal1', function () {
 $('#myInput').focus()
-
+})
 $('#myModal').on('#modal3', function () {
 $('#myInput').focus()
-
+})
 $('#myModal').on('#modal4', function () {
 $('#myInput').focus()
-
+})
 $('#myModal').on('#modal5', function () {
 $('#myInput').focus()
 })
 
+$(window).scroll( function(){
 
+  //get scroll position
+  var topWindow = $(window).scrollTop();
+  //multiply by 1.5 so the arrow will become transparent half-way up the page
+  var topWindow = topWindow * 1.5;
 
+  //get height of window
+  var windowHeight = $(window).height();
 
+  //set position as percentage of how far the user has scrolled
+  var position = topWindow / windowHeight;
+  //invert the percentage
+  position = 1 - position;
 
-    console.log( "ready!" );
+  //define arrow opacity as based on how far up the page the user has scrolled
+  //no scrolling = 1, half-way up the page = 0
+  $('.arrow-wrap').css('opacity', position);
+
+});
+
 });
