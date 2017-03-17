@@ -50,6 +50,7 @@ body {
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
+    height: 100%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -130,15 +131,19 @@ h1, h2, h3, h4, h5, h6 {
 #footerwrap {
   padding-top: 20px;
 	/*padding-top: 70px;*/
-	/*padding-bottom: 50px;*/
+	padding-bottom: 50px;
 	background-color: #2f2f2f;
   text-align: right;
+  height: 60px;
+
+
 
 }
 
 #footerwrap p {
 	color: #f2f2f2;
 	margin-right: 10px;
+
 }
 
 
@@ -155,25 +160,8 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 250px;
   border-radius: 50%;
   text-align: center !important;
-  margin-bottom: 5%;
+  margin-bottom: 0.5%;
 
-
-
-
-	/*background-attachment: relative;
-	background-position: center;*/
-  /*height: 100px;
-	width: 100%;*/
-/*
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;*/
 }
 
 
@@ -182,6 +170,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Gallery */
 .gallery {
 	margin-top: 30px;
+  margin-bottom: 40px;
 
 }
 
@@ -192,10 +181,12 @@ h1, h2, h3, h4, h5, h6 {
 /*social media*/
 .social{
   color:white;
+  font-size: 30px;
+
 }
 
 .social:hover {
-  font-size:2em;
+  font-size:2.5em;
   transition: 1s ease-out;
   color:white;
 
@@ -206,6 +197,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .skills {
+  padding-top: 15px;
   background-color: #ddd;
-  height: 300px;
+  height: auto;
+  padding-bottom: 10px;
+  
 }
